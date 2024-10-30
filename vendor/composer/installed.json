@@ -1,0 +1,325 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "8024be9aa3ee446272937f46a8807fa52b337767"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/8024be9aa3ee446272937f46a8807fa52b337767",
+            "reference": "8024be9aa3ee446272937f46a8807fa52b337767",
+            "shasum": ""
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2014-11-01 17:51:50",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Hurad",
+            "MODX Evo",
+            "OXID",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "annotatecms",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "drupal",
+            "elgg",
+            "fuelphp",
+            "grav",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "markjaquith/wp-tlc-transients",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/markjaquith/WP-TLC-Transients.git",
+            "reference": "bdbe0691db6adaf08af0dee6c70ebebe881633d8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/markjaquith/WP-TLC-Transients/zipball/bdbe0691db6adaf08af0dee6c70ebebe881633d8",
+            "reference": "bdbe0691db6adaf08af0dee6c70ebebe881633d8",
+            "shasum": ""
+        },
+        "time": "2013-05-07 18:12:10",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "class-tlc-transient.php",
+                "class-tlc-transient-update-server.php"
+            ],
+            "files": [
+                "functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Mark Jaquith",
+                "homepage": "http://markjaquith.com/"
+            }
+        ],
+        "description": "A WP transients interface with support for soft-expiration, background updating of the transients.",
+        "homepage": "https://github.com/markjaquith/WP-TLC-Transients",
+        "keywords": [
+            "cache",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "shelob9/jp-menu-route",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Shelob9/jp-menu-route.git",
+            "reference": "af5d45e12fd012339b83f6777129ed3eba7e588a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Shelob9/jp-menu-route/zipball/af5d45e12fd012339b83f6777129ed3eba7e588a",
+            "reference": "af5d45e12fd012339b83f6777129ed3eba7e588a",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0.0",
+            "php": ">=5.3.0"
+        },
+        "time": "2014-10-23 23:41:24",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "class-jp-menu-api.php"
+            ],
+            "files": [
+                "functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Josh Pollock",
+                "homepage": "http://JoshPress.net/"
+            }
+        ],
+        "description": "Adds ability to retrieve menus via the WordPress REST API (WP-API).",
+        "homepage": "https://github.com/Shelob9/jp-menu-route",
+        "keywords": [
+            "rest-api",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "shelob9/jp-rest-access",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Shelob9/jp-rest-access.git",
+            "reference": "5e59234006bd3a8dea9e8abf94ea988440d22576"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Shelob9/jp-rest-access/zipball/5e59234006bd3a8dea9e8abf94ea988440d22576",
+            "reference": "5e59234006bd3a8dea9e8abf94ea988440d22576",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0.0",
+            "php": ">=5.3.0"
+        },
+        "time": "2014-10-25 13:18:25",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Josh Pollock",
+                "homepage": "http://JoshPress.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "Sets CORS headers, and allows offest in posts route, with max post per page for WordPress REST API (WP-API).",
+        "keywords": [
+            "api",
+            "rest-api",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "shelob9/jp-tax-query",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Shelob9/jp-tax-query.git",
+            "reference": "09bbe1dbfabef2ccd562c857b2c1a404ec985f87"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Shelob9/jp-tax-query/zipball/09bbe1dbfabef2ccd562c857b2c1a404ec985f87",
+            "reference": "09bbe1dbfabef2ccd562c857b2c1a404ec985f87",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0.0",
+            "php": ">=5.3.0"
+        },
+        "time": "2014-10-23 23:56:02",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "class-jp-tax-query.php"
+            ],
+            "files": [
+                "functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Josh Pollock",
+                "homepage": "http://JoshPress.net/"
+            }
+        ],
+        "description": "Adds a tax-query endpoint to the WordPress REST API",
+        "homepage": "https://github.com/Shelob9/jp-tax-query",
+        "keywords": [
+            "rest-api",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "shelob9/jp-rest-cache",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Shelob9/jp-rest-cache.git",
+            "reference": "f69461f4d0e2da203faebd860358fe9b9c40a2eb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Shelob9/jp-rest-cache/zipball/f69461f4d0e2da203faebd860358fe9b9c40a2eb",
+            "reference": "f69461f4d0e2da203faebd860358fe9b9c40a2eb",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0.0",
+            "markjaquith/wp-tlc-transients": "dev-master",
+            "php": ">=5.3.0"
+        },
+        "time": "2014-10-26 22:16:18",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "jp-rest-cache.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Josh Pollock",
+                "homepage": "http://JoshPress.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "Soft-expiring, server-side cache  for the WordPress REST API (WP REST).",
+        "keywords": [
+            "api",
+            "cache",
+            "wordpress"
+        ]
+    }
+]
